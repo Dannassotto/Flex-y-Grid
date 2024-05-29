@@ -9,7 +9,7 @@ html, body {
     padding: 10vw;
     background-color: antiquewhite;
     border: 2px solid #000; 
-    border-radius: 1vw; 
+    border-radius: 1vh; 
     box-sizing: border-box; 
     height:auto;
 }
@@ -34,11 +34,21 @@ img {
 
 .luciernagas {
     font-size: 1.5vw;
-    margin-top: 1vw;
+    margin-top: 1vh;
     padding: 1vw;
     border: 2px solid #707070;
     border-radius: 1vw;
     text-align: center;
     width: 100%;
     box-sizing: border-box; 
+}
+.barra{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2vw;
+    background-color: rgb(240, 179, 240);
+    height: 8vh;
+    align-items: center;
+    padding: 2vh;
 }
